@@ -7,3 +7,16 @@
   .card:hover {
     transform: translateY(-5px);
   }
+
+  .button{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .button_name{
+    color: black;
+  }
+
+  .b{
+    margin-top: 20px;
+  }
