@@ -1,22 +1,81 @@
 .card {
-    max-width: 345px;
-    margin: auto;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
+  max-width: 345px;
+  margin: auto;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  .button{
-    width: 100%;
-    margin-top: 50px;
-  }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-  .button_name{
-    color: black;
-  }
+.button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  .b{
-    margin-top: 20px;
-  }
+.button_name {
+  color: black;
+}
+
+.b {
+  margin-top: 20px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+
+  margin-right: 10px;
+}
+
+.company-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job-role {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.location {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.salary {
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.description p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.experience {
+  margin-top: 10px;
+}
+
+.experience span {
+  font-weight: bold;
+}
